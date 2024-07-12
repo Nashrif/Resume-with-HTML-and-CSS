@@ -1,0 +1,70 @@
+/* fonts styles  */
+
+
+
+.azeret-mono{
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style : normal;
+}
+
+/* Header head section style */
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.name{
+    font-size: 28px;
+    font-weight: 800;
+    color: #0D1321;
+    margin-bottom: 48px;
+}
+
+.download-resume{
+    margin-top: 38px;
+    margin-right: 150px;
+    margin-bottom: 36px;
+    padding: 17px 24px ;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    color: #0D1321;
+}
+
+/* header style */
+
+.header{
+    background-image: url(../assets/Hero-bg.png);
+}
+
+.banner{
+ text-align: center;
+ justify-content: space-between;
+}
+
+.resume-motivation-title{
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    margin: 32px 221px;
+}
+
+.resume-motivation-description{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 32px 221px;
+}
+
+.contact-button{
+    background-color: #0D1321;
+    color: white;
+    border-radius: 8px;
+    padding: 21px 24px;
+    font-size: 20px;
+    font-weight: 600;
+}
