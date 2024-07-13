@@ -9,6 +9,25 @@
   font-style : normal;
 }
 
+/* shared style */
+.main-part-title{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    padding: 0px;
+}
+
+.main-part-description{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    /* text-align: justify; */
+    /* padding: 80px 97px; */
+    padding: 61px 144px 48px 144px;
+
+    /* gap: 48px; */
+}
+
 /* Header head section style */
 .head{
     display: flex;
@@ -76,29 +95,16 @@
 
 
 .Web-development-reason{
+    border-width: 1140px;
     margin: 70px 150px 95px 150px;
     padding: 80px 97px;
     border-radius: 16px;
-    border: none;
+    border: solid rgba(13, 19, 33, 0.2);
    /* background-color: aqua; */
-    background: rgba(13, 19, 33, 0.02); */
+    background: rgba(13, 19, 33, 0.02);
 }
 
-.Web-development-reason-title{
-    font-size: 32px;
-    font-weight: 800;
-    text-align: center;
-    padding: 0px;
-}
 
-.Web-development-reason-description{
-    font-weight: 400;
-    font-size: 16px;
-    text-align: center;
-    padding: 80px 97px;
-
-    /* gap: 48px; */
-}
 
 .reasons{
     /* padding: 80px 97px 20px 97px; */
@@ -112,7 +118,7 @@
     /* width: 70%; */
     background-color: rgb(255, 255, 255, 1);
     /* padding-right: 200px; */
-    padding: 48px;
+    padding: 48px ;
 }
 
 .reason-image{
@@ -144,4 +150,27 @@
     border: 1px solid rgba(13, 19, 33, 1);
 }
 
+.Inspiration{
+    padding: 64px  152px 151px 148px;
+}
+
+.inspiration-video{
+    /* background-size: cover; */
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    /* padding:48px 0px 48px 0px; */
+    padding-top: 48px;
+    padding-bottom: 48px;
+    border-radius: 16px;
+}
+iframe {
+
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 70vw;
+    /* using for adjust the video height */
+    height: calc(70vw/1.77);
+    border-radius: 16px;
+
+ }
 
