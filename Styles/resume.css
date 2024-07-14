@@ -23,7 +23,7 @@
     text-align: center;
     /* text-align: justify; */
     /* padding: 80px 97px; */
-    padding: 61px 144px 48px 144px;
+    padding: 20px 144px 28px 144px;
 
     /* gap: 48px; */
 }
@@ -95,29 +95,24 @@
 
 
 .Web-development-reason{
-    border-width: 1140px;
     margin: 70px 150px 95px 150px;
-    padding: 80px 97px;
+    /* padding: 80px 97px; */
     border-radius: 16px;
     border: solid rgba(13, 19, 33, 0.2);
-   /* background-color: aqua; */
     background: rgba(13, 19, 33, 0.02);
 }
 
 
 
-.reasons{
-    /* padding: 80px 97px 20px 97px; */
+.reasons-container{
     display: flex;
     justify-content: space-between;
-    background-color: rgba(13, 19, 33, 0.02);
-    padding: 80px 97px;
+    padding: 48px;
+    margin-bottom: 5px;
 }
 
 .reason{
-    /* width: 70%; */
     background-color: rgb(255, 255, 255, 1);
-    /* padding-right: 200px; */
     padding: 48px ;
 }
 
@@ -143,7 +138,6 @@
 }
 .learn-more-btn{
     padding: 12px 20px;
-    /* gap: 10px; */
     font-weight: 500;
     font-size: 20px;
     color: rgba(13, 19, 33, 1);
@@ -151,7 +145,10 @@
 }
 
 .Inspiration {
-    padding: 64px  152px 151px 148px;
+    margin: 70px 150px 95px 150px;
+    /* padding: 80px 97px; */
+    /* border-radius: 16px; */
+    /* padding: 0px 152px 20px 148px; */
 }
 
 .inspiration-video{
@@ -175,8 +172,11 @@ iframe {
  }
 
  .current-target{
-    padding: 64px  152px 151px 148px;
- }
+    /* padding: 64px  152px 151px 148px; */
+    margin: 70px 150px 95px 150px;
+    /* padding: 80px 97px; */
+    /* border-radius: 16px; */
+}
 
  .skills-container{
     display: flex;
